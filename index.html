@@ -1,51 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terminal Style Home</title>
-    <style>
-        body {
-            background-color: #000;
-            color: #00ff00;
-            font-family: 'Courier New', Courier, monospace;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            text-align: center;
-        }
-        a {
-            color: #00ff00;
-            text-decoration: none;
-        }
-        .container {
-            max-width: 800px;
-            padding: 20px;
-        }
-        .ascii-art {
-            margin-top: 20px;
-        }
-    </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <title>Portfolio</title>
+    <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+  </head>
+  <body>
     <div class="container">
-        <h1>Welcome to QuantCom Capital</h1>
-        <p class="ascii-art">
-            <pre>
-                ░▒▓██████████████▓▒░░▒▓█▓▒░▒▓███████▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░░▒▓████████▓▒░ 
-                ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░ 
-                ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░    ░▒▓██▓▒░  
-                ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░▒▓████████▓▒░  ░▒▓██▓▒░    
-                ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓██▓▒░      
-                ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░        
-                ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░                                          
-            </pre>
-        </p>
-        <p>Financial Solutions for the Modern World.</p>
-        <div id="terminal"></div>
-        <script src="script.js"></script>
+      <nav>
+        <ul>
+          <li id="about">/About</li>
+          <li id="contact">/Contact</li>
+          <li id="resume"><a class="resume" target="_blank" href="Loakesh Bachhu CV.pdf">/Resume</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <h1>@psychedde1ic:$<span class="cursor">|</span></h1>
+        <div class="terminal">
+          <span> \[._.]/ 👋 This is Minhajul Abedin</span>
+          <br>
+          <span class="dollar"> A Proprietary Trader and Portfolio Manager</span>
+          <br>
+          <span class="dollar"> Founder of Quantcom Capital,a quantamental trading firm. </span> 
+          <br>
+          <span class="dollar"> find me online on:</span> 
+          <br>
+
+        <ul>
+         <li>
+            <a href="https://www.quantcomcapital.com/" target="_blank"
+              >My website</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/psychedde1ic" target="_blank">Github</a>
+          </li>
+         
+          <li>
+            <a href="https://x.com/psychedde1ic" target="_blank"
+              >X/Twitter</a
+            >
+          </li>
+          <li>
+            <a href="https://www.instagram.com/psychedde1ic/" target="_blank"
+              >Instagram</a
+            >
+          </li>
+         </ul>
+        </div>
+        
+      </main>
     </div>
-</body>
+
+    <div class="hidden">
+      <div id="about-content">
+        <h2>about-me:$<span class="cursor">|</span></h2>
+        <p>
+          Prop-trader | Macro and Event driven | Finding exploits within financial markets with years of trading experience working on quantmental analysis and design algorithms in the areas of Capital Market,
+          implementing and testing robust trading strategies based on large-scale distributed data in the field of financial models using machine learing practices including AI. Extensive experience in the field of Financial Trading
+          development. Some of the languages that I am fluent in include Python, Pinescripts, R.
+        </p>
+      </div>
+
+      <div id="contact-content">
+        <h2>contact-me:$<span class="cursor">|</span></h2>
+        <p>Want to be an Investing Partner, write an Email
+        <ul>
+          <li>Email: <a href="mailto:info@quantcomcapital.com">info@quantcomcapital.com</a></li>
+          and reach me on 
+          <li><a href="https://x.com/psychedde1ic/" target="_blank"
+            >X</a
+          ></li></p>
+        </ul>
+      </div>
+    </div>
+
+    <script src="js/winbox.bundle.js"></script>
+    <script src="js/main.js"></script>
+    <!-- <footer>
+      <p id="copy">Copyright(c) <a href="https://www.linkedin.com/in/loakeshbachhu/">lb</a><br><span style="#"></p>
+    </footer> -->
+  </body>
 </html>
